@@ -1,11 +1,18 @@
 # Visual Studio 2015 user specific files
 .vs/
+.idea/
+
+# Builds
+packsssss/
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+
+# Debug Symbols
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -73,3 +80,9 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#RiderLink
+Plugins/Developer/*
+
+PackagedBuilds/
+ArchievedBuilds/
